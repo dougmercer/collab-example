@@ -1,0 +1,29 @@
+{
+  "name": "collab-sketch",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^7.3.1",
+    "@tsconfig/svelte": "^5.0.8",
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "^26.6.4",
+    "svelte": "^5.57.1",
+    "svelte-check": "^4.7.6",
+    "typescript": "^6.0.3",
+    "vite": "^8.3.2",
+    "vitest": "^4.1.11"
+  },
+  "dependencies": {
+    "maplibre-gl": "^6.12.0",
+    "terra-draw": "^1.36.0",
+    "terra-draw-maplibre-gl-adapter": "^1.4.1"
+  }
+}
